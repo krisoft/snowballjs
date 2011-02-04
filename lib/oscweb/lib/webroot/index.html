@@ -7,7 +7,7 @@
 <h1>It's working, bitches!</h1>
 <script>
 	  webOSC.listen("/valami",function(m){
-      	document.title+="+";
+      	document.title=m[0];
       });
       
       webOSC.add("hejho");

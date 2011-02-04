@@ -4,3 +4,6 @@
 [submodule "lib/node-jspack"]
 	path = lib/node-jspack
 	url = https://github.com/pgriess/node-jspack.git
+[submodule "lib/socket.io"]
+	path = lib/socket.io
+	url = git://github.com/LearnBoost/Socket.IO-node.git

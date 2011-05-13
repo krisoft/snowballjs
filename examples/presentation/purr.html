@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Bálint Ferenczi</title>
+
+	<link rel="stylesheet" type="text/css" href="reset.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="layout.css" media="screen" />
+	<style type="text/css">
+	.part{
+		position: absolute;
+		-webkit-transition:all 1.5s ease-in;
+		-webkit-transform-origin: 50% 50%;
+		-webkit-transform: rotateY(180deg) scale(.6);
+		-webkit-backface-visibility:hidden;
+	}
+	#tst{
+		-webkit-perspective:2000px;
+		-webkit-perspective-origin: 50% 70%;
+	}
+	</style>
+</head>
+<body>
+    <div id="wrapper">
+    	<div id="tst" class="slide"></div>
+        <img src="3.png" class="slide actual bottom" id="a"/>                               
+    </div>
+
+    <script type="text/javascript" src="jquery.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/webOSC/osc.js"></script>
+    <script type="text/javascript">
+    
+    	function divide($o){
+    		var s = $o.attr("src"),
+	    		d = 5,
+    			w = $o.width()/d,
+    			h = $o.height()/d,
+    			n = d*d;
+    			console.log(w,h);
+    		for(var i = 0;i<n;i++){
+    			p = $("<div></div>")
+    				.addClass("part")
+    				.css("left",i%d*w+"px")
+    				.css("top",Math.floor(i/d)*h+"px")
+    				.css("width",w+"px")
+    				.css("height",h+"px")
+    				.css("background-image","url("+s+")")
+    				.css("background-position",(-i%d*w)+"px "+(-1*Math.floor(i/d)*h)+"px")
+    				;
+    			$("#tst").append(p);
+    		}	
+    	}
+    
+    	function twist($o){
+    		$o.children().each(function(){
+    			var t = $(this);
+    			setTimeout(function(){
+    				t.css("-webkit-transform","rotateY(0deg)");
+    			},parseInt(Math.random()*2000))
+    		})
+    	}
+    
+        function stepDown(){
+            $(".actual").removeClass("actual").addClass("top").next(".slide").removeClass("bottom").addClass("actual");
+        }
+        function stepUp(){
+            $(".actual").removeClass("actual").addClass("bottom").prev(".slide").removeClass("top").addClass("actual");
+        }
+    
+        $(document).ready(function(){
+        /*
+			webOSC.listen("/lofax",function(m){
+				if(m[0] == "down"){
+					if( !$(".last").hasClass("actual")) stepDown();
+				} else if(m[0] == "up"){
+					if( !$(".first").hasClass("actual")) stepUp();
+				}
+			});            
+            $(document).keydown(function(e){
+                //console.log(e);
+                if(e.keyCode  == 40){ //down
+                    if( !$(".last").hasClass("actual")) stepDown();
+                    return false;
+                }
+                if(e.keyCode  == 38){ //up
+                    if( !$(".first").hasClass("actual")) stepUp();
+                    return false;
+                }
+                
+                })
+            */
+            })
+    
+    </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Prezi Kontroller</title>
+
+	<link rel="stylesheet" type="text/css" href="reset.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="layout.css" media="screen" />
+</head>
+<body ontouchmove="flick(event)">
+<div id="up">Előző</div>
+<div id="down">Következő</div>
+
+    <script type="text/javascript" src="jquery.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/webOSC/osc.js"></script>
+    <script type="text/javascript">
+    	var u,d;
+    
+        $(document).ready(function(){
+        	u = document.getElementById("up");
+        	d = document.getElementById("down");
+        
+        	u.addEventListener("touchstart",function(e){
+	        	webOSC.add("up");
+	        	webOSC.send("/lofax");
+        	})
+
+			d.addEventListener("touchstart",function(e){
+				webOSC.add("down");
+				webOSC.send("/lofax");
+			})
+                   
+            })
+    
+        function flick(e){
+            e.preventDefault();
+
+        }
+
+    </script>
+</body>
+</html>

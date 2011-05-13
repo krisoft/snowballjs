@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	256AC3D80F4B6AC300CF3369 /* standaloneMacAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 455}}";
+			sepNavSelRange = "{530, 6}";
+			sepNavVisRange = "{0, 751}";
+			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* standaloneMacAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 988}}";
+			sepNavSelRange = "{1792, 0}";
+			sepNavVisRange = "{0, 1048}";
+			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = B92A2F781367559600F4256C /* snowballjs */;
+		activeTarget = 8D1107260486CEB800E47090 /* snowballjs */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* snowballjs */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = B92A2F831367559D00F4256C /* Code sense */;
+		executables = (
+			B92A2F781367559600F4256C /* snowballjs */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					833,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					847,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					793,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 327009531;
+			PBXWorkspaceStateSaveDate = 327009531;
+		};
+		perUserProjectItems = {
+			B931AD8A137DBDEB000AED74 = B931AD8A137DBDEB000AED74 /* PBXTextBookmark */;
+			B931AD8C137DBDEB000AED74 = B931AD8C137DBDEB000AED74 /* PBXTextBookmark */;
+			B931AD8E137DBDEB000AED74 = B931AD8E137DBDEB000AED74 /* PBXTextBookmark */;
+			B931AD8F137DBDEB000AED74 = B931AD8F137DBDEB000AED74 /* PBXTextBookmark */;
+			B931AD91137DBDEB000AED74 = B931AD91137DBDEB000AED74 /* PBXTextBookmark */;
+			B931AD92137DBDEB000AED74 = B931AD92137DBDEB000AED74 /* PBXTextBookmark */;
+			B931AD93137DBDEB000AED74 = B931AD93137DBDEB000AED74 /* PBXTextBookmark */;
+			B931B2C6137DBE05000AED74 = B931B2C6137DBE05000AED74 /* PBXTextBookmark */;
+			B9F65E1A137DC5020078DFE0 /* PBXTextBookmark */ = B9F65E1A137DC5020078DFE0 /* PBXTextBookmark */;
+			B9F65E1B137DC5020078DFE0 /* PBXTextBookmark */ = B9F65E1B137DC5020078DFE0 /* PBXTextBookmark */;
+			B9F65E1C137DC5020078DFE0 /* PBXTextBookmark */ = B9F65E1C137DC5020078DFE0 /* PBXTextBookmark */;
+		};
+		sourceControlManager = B92A2F821367559D00F4256C /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* snowballjs */ = {
+		activeExec = 0;
+		executables = (
+			B92A2F781367559600F4256C /* snowballjs */,
+		);
+	};
+	B92A2F781367559600F4256C /* snowballjs */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = snowballjs;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	B92A2F821367559D00F4256C /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	B92A2F831367559D00F4256C /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	B92A2F9F13675A5000F4256C /* server.js */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 431}}";
+			sepNavSelRange = "{311, 0}";
+			sepNavVisRange = "{0, 458}";
+		};
+	};
+	B931AD8A137DBDEB000AED74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B931AD8B137DBDEB000AED74 /* node-static.js */;
+		name = "node-static.js: 22";
+		rLen = 0;
+		rLoc = 550;
+		rType = 0;
+		vrLen = 1223;
+		vrLoc = 1292;
+	};
+	B931AD8B137DBDEB000AED74 /* node-static.js */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.javascript;
+		name = "node-static.js";
+		path = "/Users/krisztian/progz/kibu/oscWEB/lib/node-static.js";
+		sourceTree = "<absolute>";
+	};
+	B931AD8C137DBDEB000AED74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B931AD8D137DBDEB000AED74 /* webserver.js */;
+		name = "webserver.js: 6";
+		rLen = 0;
+		rLoc = 203;
+		rType = 0;
+		vrLen = 1258;
+		vrLoc = 0;
+	};
+	B931AD8D137DBDEB000AED74 /* webserver.js */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.javascript;
+		name = webserver.js;
+		path = /Users/krisztian/progz/kibu/oscWEB/lib/oscweb/webserver.js;
+		sourceTree = "<absolute>";
+	};
+	B931AD8E137DBDEB000AED74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* standaloneMacAppDelegate.h */;
+		name = "standaloneMacAppDelegate.h: 24";
+		rLen = 6;
+		rLoc = 530;
+		rType = 0;
+		vrLen = 751;
+		vrLoc = 0;
+	};
+	B931AD8F137DBDEB000AED74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B931AD90137DBDEB000AED74 /* oscweb.js */;
+		name = "oscweb.js: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 834;
+		vrLoc = 0;
+	};
+	B931AD90137DBDEB000AED74 /* oscweb.js */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.javascript;
+		name = oscweb.js;
+		path = /Users/krisztian/progz/kibu/oscWEB/lib/oscweb/oscweb.js;
+		sourceTree = "<absolute>";
+	};
+	B931AD91137DBDEB000AED74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* standaloneMacAppDelegate.m */;
+		name = "standaloneMacAppDelegate.m: 53";
+		rLen = 0;
+		rLoc = 1792;
+		rType = 0;
+		vrLen = 1122;
+		vrLoc = 1048;
+	};
+	B931AD92137DBDEB000AED74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B92A2F9F13675A5000F4256C /* server.js */;
+		name = "server.js: 10";
+		rLen = 0;
+		rLoc = 311;
+		rType = 0;
+		vrLen = 458;
+		vrLoc = 0;
+	};
+	B931AD93137DBDEB000AED74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B92A2F9F13675A5000F4256C /* server.js */;
+		name = "server.js: 9";
+		rLen = 0;
+		rLoc = 311;
+		rType = 0;
+		vrLen = 458;
+		vrLoc = 0;
+	};
+	B931B2C6137DBE05000AED74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B92A2F9F13675A5000F4256C /* server.js */;
+		name = "server.js: 9";
+		rLen = 0;
+		rLoc = 311;
+		rType = 0;
+		vrLen = 458;
+		vrLoc = 0;
+	};
+	B9F65E1A137DC5020078DFE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B92A2F9F13675A5000F4256C /* server.js */;
+		name = "server.js: 9";
+		rLen = 0;
+		rLoc = 311;
+		rType = 0;
+		vrLen = 458;
+		vrLoc = 0;
+	};
+	B9F65E1B137DC5020078DFE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* standaloneMacAppDelegate.m */;
+		name = "standaloneMacAppDelegate.m: 53";
+		rLen = 0;
+		rLoc = 1792;
+		rType = 0;
+		vrLen = 1119;
+		vrLoc = 1051;
+	};
+	B9F65E1C137DC5020078DFE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* standaloneMacAppDelegate.m */;
+		name = "standaloneMacAppDelegate.m: 53";
+		rLen = 0;
+		rLoc = 1792;
+		rType = 0;
+		vrLen = 1048;
+		vrLoc = 0;
+	};
+}

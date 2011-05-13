@@ -1,0 +1,21 @@
+body{
+	font:normal 12px Helvetica, Arial, sans-serif;
+	line-height: 20px;
+    background: black;
+    width: 320px;
+}
+
+
+#up, #down{
+	width: 280px;
+	margin: 40px 20px;
+	-webkit-border-radius: 10px;
+	background: orange;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	text-shadow: 0 1px 0 black;
+	height: 30px;
+	padding: 20px 0;
+	text-align: center;
+}

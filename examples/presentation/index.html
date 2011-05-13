@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>OSCWEB</title>
+
+	<link rel="stylesheet" type="text/css" href="reset.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="layout.css" media="screen" />
+</head>
+<body>
+    <div id="wrapper">
+        <img src="1.png" class="slide actual first" />
+        <img src="2.png" class="slide bottom" />
+        <img src="4.png" class="slide bottom" />                
+        <img src="5.png" class="slide bottom" />
+        <img src="6.png" class="slide bottom" />
+        <img src="9.png" class="slide bottom last" />                             
+    </div>
+
+    <script type="text/javascript" src="jquery.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/webOSC/osc.js"></script>
+    <script type="text/javascript">
+    
+        function stepDown(){
+            $(".actual").removeClass("actual").addClass("top").next(".slide").removeClass("bottom").addClass("actual");
+        }
+        function stepUp(){
+            $(".actual").removeClass("actual").addClass("bottom").prev(".slide").removeClass("top").addClass("actual");
+        }
+    
+        $(document).ready(function(){
+            if(webOSC){
+    			webOSC.listen("/lofax",function(m){
+    				if(m[0] == "down"){
+    					if( !$(".last").hasClass("actual")) stepDown();
+    				} else if(m[0] == "up"){
+    					if( !$(".first").hasClass("actual")) stepUp();
+    				}
+    			});        
+            }    
+            $(document).keydown(function(e){
+                //console.log(e);
+                if(e.keyCode  == 40){ //down
+                    if( !$(".last").hasClass("actual")) stepDown();
+                    return false;
+                }
+                if(e.keyCode  == 38){ //up
+                    if( !$(".first").hasClass("actual")) stepUp();
+                    return false;
+                }
+                
+                })
+            })
+    
+    </script>
+</body>
+</html>

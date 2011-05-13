@@ -1,0 +1,5 @@
+build/*
+node
+libssl.1.0.0.dylib
+libz.1.dylib
+libcrypto.1.0.0.dylib

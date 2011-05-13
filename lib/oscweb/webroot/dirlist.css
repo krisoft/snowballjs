@@ -1,0 +1,112 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ********** END OF RESET CSS ********** */
+
+
+body{
+	background-color:#333;
+}
+
+ul{
+	list-style-type: none;
+}
+li{
+	display:block;
+		width:80%;
+		background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0.04, rgb(171,171,168)),
+	    color-stop(1, rgb(107,105,107))
+	);
+	background-image: -moz-linear-gradient(
+	    center bottom,
+	    rgb(171,171,168) 4%,
+	    rgb(107,105,107) 100%
+	);
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	margin:15px;
+	padding:10px;
+}
+a{
+	color:#000;
+	text-decoration:none;
+}
+.head{
+	font-size:20px;
+}
+
+.md{
+	display:block;
+		width:80%;
+		background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0.04, rgb(171,171,168)),
+	    color-stop(1, rgb(107,105,107))
+	);
+	background-image: -moz-linear-gradient(
+	    center bottom,
+	    rgb(171,171,168) 4%,
+	    rgb(107,105,107) 100%
+	);
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	margin:5px;
+	padding:5px;
+	font-size:16px;
+}
+
+.md ul{
+	list-style-type: disc;
+}
+.md li{
+	background:none;
+	padding:0px;
+
+}

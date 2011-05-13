@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'standaloneMac' target in the 'standaloneMac' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Fluxus Kontroller</title>
+
+	<link rel="stylesheet" type="text/css" href="reset.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="layout.css" media="screen" />
+</head>
+<body>
+<div id="up">FORGASD!</div>
+<div id="log" style="color:white">
+
+</div>
+
+    <script type="text/javascript" src="jquery.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/webOSC/osc.js"></script>
+    <script type="text/javascript">
+    
+    var c = {}, p = {};
+    var l = -1;
+    window.onload = function(){
+        l = document.getElementById("log");
+    }
+
+   window.ondeviceorientation = function(event) {
+    	c = {
+    		a : event.alpha.toFixed(2),
+    		b : event.beta.toFixed(2),
+    		g : event.gamma.toFixed(2), 		 		
+    	}
+        l.innerHTML = "alpha: " + c.a + "<br />beta: " + c.b + "<br />gamma: " + c.g;
+        p = c;
+
+    } 
+
+	setInterval(function(){
+		webOSC.add(a);
+		webOSC.add(b);
+		webOSC.add(g);
+		webOSC.send("/forgat");	
+	},50)
+ 
+
+
+    
+    </script>
+</body>
+</html>

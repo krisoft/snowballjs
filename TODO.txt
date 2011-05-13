@@ -1,2 +1,2 @@
 - less offensive splash html
-- osc ip6 tamogatas
+- osc ipv6 tamogatas

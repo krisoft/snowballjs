@@ -10,7 +10,7 @@ With snowballjs you can use a really simple API to subscribe or send messages to
 
 ## Usage ##
 
-1. download the application
+1. download the application (from here stuffz.krisoft.hu/snowballjs110513.zip )
 2. start it
 3. open the website (http://localhost:8002) and play with the attached examples
 4. start your own project by modifying the boilerplate-project
@@ -41,7 +41,6 @@ only the juicy parts here, full version attached as an example
 
 	snowball.listen('/heartBeat',function(message){
 		// do something nice here
-		$("#messages").append( message );
 	});
 	snowball.add("<3");
 	snowball.send("/heartBeat")

@@ -11,8 +11,8 @@
 	256AC3D90F4B6AC300CF3369 /* standaloneMacAppDelegate.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1011, 988}}";
-			sepNavSelRange = "{1792, 0}";
-			sepNavVisRange = "{0, 1048}";
+			sepNavSelRange = "{483, 0}";
+			sepNavVisRange = "{1232, 1072}";
 			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
 		};
 	};
@@ -86,21 +86,22 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 327009531;
-			PBXWorkspaceStateSaveDate = 327009531;
+			PBXPerProjectTemplateStateSaveDate = 329321623;
+			PBXWorkspaceStateSaveDate = 329321623;
 		};
 		perUserProjectItems = {
-			B931AD8A137DBDEB000AED74 = B931AD8A137DBDEB000AED74 /* PBXTextBookmark */;
-			B931AD8C137DBDEB000AED74 = B931AD8C137DBDEB000AED74 /* PBXTextBookmark */;
-			B931AD8E137DBDEB000AED74 = B931AD8E137DBDEB000AED74 /* PBXTextBookmark */;
-			B931AD8F137DBDEB000AED74 = B931AD8F137DBDEB000AED74 /* PBXTextBookmark */;
-			B931AD91137DBDEB000AED74 = B931AD91137DBDEB000AED74 /* PBXTextBookmark */;
-			B931AD92137DBDEB000AED74 = B931AD92137DBDEB000AED74 /* PBXTextBookmark */;
-			B931AD93137DBDEB000AED74 = B931AD93137DBDEB000AED74 /* PBXTextBookmark */;
-			B931B2C6137DBE05000AED74 = B931B2C6137DBE05000AED74 /* PBXTextBookmark */;
-			B9F65E1A137DC5020078DFE0 /* PBXTextBookmark */ = B9F65E1A137DC5020078DFE0 /* PBXTextBookmark */;
-			B9F65E1B137DC5020078DFE0 /* PBXTextBookmark */ = B9F65E1B137DC5020078DFE0 /* PBXTextBookmark */;
-			B9F65E1C137DC5020078DFE0 /* PBXTextBookmark */ = B9F65E1C137DC5020078DFE0 /* PBXTextBookmark */;
+			B931AD8A137DBDEB000AED74 /* PBXTextBookmark */ = B931AD8A137DBDEB000AED74 /* PBXTextBookmark */;
+			B931AD8C137DBDEB000AED74 /* PBXTextBookmark */ = B931AD8C137DBDEB000AED74 /* PBXTextBookmark */;
+			B931AD8E137DBDEB000AED74 /* PBXTextBookmark */ = B931AD8E137DBDEB000AED74 /* PBXTextBookmark */;
+			B931AD8F137DBDEB000AED74 /* PBXTextBookmark */ = B931AD8F137DBDEB000AED74 /* PBXTextBookmark */;
+			B978E24A13A10CAF003DE65F /* PBXTextBookmark */ = B978E24A13A10CAF003DE65F /* PBXTextBookmark */;
+			B978E26413A13D40003DE65F /* PBXTextBookmark */ = B978E26413A13D40003DE65F /* PBXTextBookmark */;
+			B978E26513A13D40003DE65F /* PBXTextBookmark */ = B978E26513A13D40003DE65F /* PBXTextBookmark */;
+			B978E26A13A261BE003DE65F /* PBXTextBookmark */ = B978E26A13A261BE003DE65F /* PBXTextBookmark */;
+			B9F3E8381382A68900352C7F /* PBXTextBookmark */ = B9F3E8381382A68900352C7F /* PBXTextBookmark */;
+			B9F3E83A1382A68900352C7F /* PBXTextBookmark */ = B9F3E83A1382A68900352C7F /* PBXTextBookmark */;
+			B9F65E35137DF4F80078DFE0 /* PBXTextBookmark */ = B9F65E35137DF4F80078DFE0 /* PBXTextBookmark */;
+			B9F65E36137DF4F80078DFE0 /* PBXTextBookmark */ = B9F65E36137DF4F80078DFE0 /* PBXTextBookmark */;
 		};
 		sourceControlManager = B92A2F821367559D00F4256C /* Source Control */;
 		userBuildSettings = {
@@ -158,9 +159,9 @@
 	};
 	B92A2F9F13675A5000F4256C /* server.js */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 431}}";
-			sepNavSelRange = "{311, 0}";
-			sepNavVisRange = "{0, 458}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 401}}";
+			sepNavSelRange = "{263, 0}";
+			sepNavVisRange = "{0, 487}";
 		};
 	};
 	B931AD8A137DBDEB000AED74 /* PBXTextBookmark */ = {
@@ -224,74 +225,140 @@
 		path = /Users/krisztian/progz/kibu/oscWEB/lib/oscweb/oscweb.js;
 		sourceTree = "<absolute>";
 	};
-	B931AD91137DBDEB000AED74 /* PBXTextBookmark */ = {
+	B978E24A13A10CAF003DE65F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B9F3E8411382A68900352C7F /* snowball.js */;
+		name = "snowball.js: 1969";
+		rLen = 0;
+		rLoc = 65100;
+		rType = 0;
+		vrLen = 650;
+		vrLoc = 64826;
+	};
+	B978E26413A13D40003DE65F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B9F3E83D1382A68900352C7F /* oscweb.js */;
+		name = "oscweb.js: 85";
+		rLen = 0;
+		rLoc = 1978;
+		rType = 0;
+		vrLen = 664;
+		vrLoc = 1652;
+	};
+	B978E26513A13D40003DE65F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B9F65E3A137DF4F80078DFE0 /* webserver.js */;
+		name = "webserver.js: 101";
+		rLen = 0;
+		rLoc = 4037;
+		rType = 0;
+		vrLen = 1003;
+		vrLoc = 3363;
+	};
+	B978E26A13A261BE003DE65F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B978E26B13A261BE003DE65F /* webserver.js */;
+		name = "webserver.js: 101";
+		rLen = 0;
+		rLoc = 4036;
+		rType = 0;
+		vrLen = 1082;
+		vrLoc = 3286;
+	};
+	B978E26B13A261BE003DE65F /* webserver.js */ = {
+		isa = PBXFileReference;
+		name = webserver.js;
+		path = /Users/krisztian/progz/kibu/snowballjs/lib/oscweb/webserver.js;
+		sourceTree = "<absolute>";
+	};
+	B9F3E8381382A68900352C7F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B92A2F9F13675A5000F4256C /* server.js */;
+		name = "server.js: 8";
+		rLen = 0;
+		rLoc = 263;
+		rType = 0;
+		vrLen = 487;
+		vrLoc = 0;
+	};
+	B9F3E83A1382A68900352C7F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B9F3E83B1382A68900352C7F /* index.js */;
+		name = "index.js: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 37;
+		vrLoc = 0;
+	};
+	B9F3E83B1382A68900352C7F /* index.js */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.javascript;
+		name = index.js;
+		path = /Users/krisztian/progz/kibu/snowballjs/lib/oscweb/index.js;
+		sourceTree = "<absolute>";
+	};
+	B9F3E83D1382A68900352C7F /* oscweb.js */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.javascript;
+		name = oscweb.js;
+		path = /Users/krisztian/progz/kibu/snowballjs/lib/oscweb/oscweb.js;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 1404}}";
+			sepNavSelRange = "{1978, 0}";
+			sepNavVisRange = "{1652, 664}";
+		};
+	};
+	B9F3E8411382A68900352C7F /* snowball.js */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.javascript;
+		name = snowball.js;
+		path = /Users/krisztian/progz/kibu/snowballjs/lib/oscweb/webroot/snowball.js;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 26169}}";
+			sepNavSelRange = "{65100, 0}";
+			sepNavVisRange = "{64826, 650}";
+		};
+	};
+	B9F65E35137DF4F80078DFE0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 256AC3D90F4B6AC300CF3369 /* standaloneMacAppDelegate.m */;
-		name = "standaloneMacAppDelegate.m: 53";
+		name = "standaloneMacAppDelegate.m: 20";
 		rLen = 0;
-		rLoc = 1792;
+		rLoc = 483;
 		rType = 0;
-		vrLen = 1122;
-		vrLoc = 1048;
+		vrLen = 1072;
+		vrLoc = 1232;
 	};
-	B931AD92137DBDEB000AED74 /* PBXTextBookmark */ = {
+	B9F65E36137DF4F80078DFE0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = B92A2F9F13675A5000F4256C /* server.js */;
-		name = "server.js: 10";
+		fRef = B9F65E37137DF4F80078DFE0 /* message.js */;
+		name = "message.js: 1";
 		rLen = 0;
-		rLoc = 311;
+		rLoc = 0;
 		rType = 0;
-		vrLen = 458;
+		vrLen = 814;
 		vrLoc = 0;
 	};
-	B931AD93137DBDEB000AED74 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = B92A2F9F13675A5000F4256C /* server.js */;
-		name = "server.js: 9";
-		rLen = 0;
-		rLoc = 311;
-		rType = 0;
-		vrLen = 458;
-		vrLoc = 0;
+	B9F65E37137DF4F80078DFE0 /* message.js */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.javascript;
+		name = message.js;
+		path = "/Users/krisztian/progz/kibu/snowballjs/lib/node-osc/message.js";
+		sourceTree = "<absolute>";
 	};
-	B931B2C6137DBE05000AED74 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = B92A2F9F13675A5000F4256C /* server.js */;
-		name = "server.js: 9";
-		rLen = 0;
-		rLoc = 311;
-		rType = 0;
-		vrLen = 458;
-		vrLoc = 0;
-	};
-	B9F65E1A137DC5020078DFE0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = B92A2F9F13675A5000F4256C /* server.js */;
-		name = "server.js: 9";
-		rLen = 0;
-		rLoc = 311;
-		rType = 0;
-		vrLen = 458;
-		vrLoc = 0;
-	};
-	B9F65E1B137DC5020078DFE0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 256AC3D90F4B6AC300CF3369 /* standaloneMacAppDelegate.m */;
-		name = "standaloneMacAppDelegate.m: 53";
-		rLen = 0;
-		rLoc = 1792;
-		rType = 0;
-		vrLen = 1119;
-		vrLoc = 1051;
-	};
-	B9F65E1C137DC5020078DFE0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 256AC3D90F4B6AC300CF3369 /* standaloneMacAppDelegate.m */;
-		name = "standaloneMacAppDelegate.m: 53";
-		rLen = 0;
-		rLoc = 1792;
-		rType = 0;
-		vrLen = 1048;
-		vrLoc = 0;
+	B9F65E3A137DF4F80078DFE0 /* webserver.js */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.javascript;
+		name = webserver.js;
+		path = /Users/krisztian/progz/kibu/snowballjs/lib/oscweb/webserver.js;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 1456}}";
+			sepNavSelRange = "{4036, 0}";
+			sepNavVisRange = "{3363, 1005}";
+		};
 	};
 }

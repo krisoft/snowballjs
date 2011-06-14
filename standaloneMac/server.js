@@ -5,6 +5,7 @@ var   osc=require('./lib/oscweb')
 , server;
 
 root = require("querystring").unescape(root);
+root = path.normalize(root);
 server = osc.createServer({webRoot:root});
 console.log("ready and serving");
 

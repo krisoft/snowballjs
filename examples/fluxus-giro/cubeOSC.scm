@@ -11,5 +11,5 @@
     )))
 (osc-source "5678")
 (osc-destination "osc.udp://localhost:5670")
-(osc-send "/webOSC/join" "si" (list "/forgat" 5678))
+(osc-send "/snowballjs/listen" "si" (list "/forgat" 5678))
 (osc-send "/valami" "s" (list "hej!"))
